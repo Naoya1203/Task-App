@@ -3,6 +3,11 @@
 
 /* 共通 */
 
+.header {
+  backgorund-color: #00ced1;
+}
+
+
 body {
   padding-top: 60px;
 }
@@ -34,6 +39,7 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+
 }
 
 h2 {
@@ -41,7 +47,7 @@ h2 {
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
-  font-weight: normal;
+  font-weight: noemal;
   color: #777;
 }
 
@@ -55,16 +61,17 @@ p {
 #logo {
   float: left;
   margin-right: 10px;
+  font-style: italic;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: #808080;
   text-decoration: none;
 }
 
