@@ -4,14 +4,16 @@
 /* 共通 */
 
 
-.header {
-  background-color: teal;
-}
+
+
+
 
 body {
   padding-top: 60px;
  
 }
+
+
 
 section {
   overflow: auto;
@@ -40,8 +42,6 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
-  color: #f87;
-
 }
 
 h2 {
@@ -77,10 +77,13 @@ p {
   text-decoration: none;
 }
 
-li.header-list {
-  font-weight: bold;
-  
+#header {
+  background-color: #008080;
+}
 
+.header-list {
+  color: #ffffff!important;
+  font-weight: bold;
 }
 
 

@@ -1,9 +1,9 @@
-<header class="navbar navbar-fixed-top navbar-inverse" id=header >
+<header class="navbar navbar-fixed-top navbar-dafault" id="header" >
   <div class="container">
     <%= link_to "TaskApp", root_path, id: "logo" %>
     <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="header-list"><%= link_to "Top", root_path %></li>
+      <ul class="nav navbar-nav navbar-right" >
+        <li class="header-list"><%= link_to "Top", root_path  %></li>
         <% if logged_in? %>
           <li><%= link_to "Users", '#' %></li>
           <li class="dropdown">
