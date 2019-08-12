@@ -77,25 +77,28 @@ p {
   text-decoration: none;
 }
 
+
+
 #header {
   background-color: #008080;
 }
 
 .header-list {
   color: #fff;
+   font-weight: bold;
+}
+
+#header-list {
+  color: #fff;
   font-weight: bold;
 }
 
 .header-list:hover {
   color: #808080;
-  background-color: #f87;
+  text-decoration: none;
 }
 
 
-.a {
-  color: #fff;
-
-}
 /* デバッグウインドウ */
 
 .debug_dump {
